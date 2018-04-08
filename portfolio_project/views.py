@@ -9,3 +9,6 @@ def contactmepage(request):
 
 def ARboxingpage(request):
     return render(request, 'ARboxing.html')
+
+def ChildrensBookpage(request):
+    return render(request, 'ChildrensBook.html')

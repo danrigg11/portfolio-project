@@ -24,5 +24,6 @@ urlpatterns = [
     path('', views.homepage, name='home'),
     path('ContactMe', views.contactmepage, name='ContactMe'),
     path('ARboxing', views.ARboxingpage, name='ARboxing'),
+    path('ChildrensBook', views.ChildrensBookpage, name='ChildrensBook'),
     path('blog/', include('blog.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
