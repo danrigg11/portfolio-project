@@ -1,0 +1,144 @@
+<html>
+  <head>
+    {% load staticfiles %}
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/Main.css' %}">
+    <script src="{% static 'js/Test.js' %}"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+      <title>Python Projects | Daniel Rigg Portfolio</title>
+  </head>
+
+<body>
+<div class="container">
+<div class="row justify-content-md-center">
+    <div class="col-12">
+        <h2>Daniel Rigg Portfolio</h2>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'ContactMe' %}">Contact Me</a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'allblogs' %}">Blog</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row justify-content-md-center">
+    <div class="col-md-auto">
+        <p style="font-family: 'Special Elite', cursive; font-size: 40px;">Projects with python</p>
+    </div>
+</div>
+
+<div>
+    <div>
+        <img src="{% static 'CompletionCertficate.jpg' %}" class="img-fluid" alt="Udemy Certificate">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <p style="margin: 05;">Interactive CV</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <img style="border: 5px solid black;" src="{% static 'ProjectsWithPythoncvCover.png' %}" class="img-fluid" alt="Python cover">
+    </div>
+    <div class="col-md-6">
+        <p style="margin: 0px;">This project is my cv with a twist, created to show what I have learnt using python on the Udemy course 'The Python Bible'.</p>
+    </div>
+    <div class="col-md-12">
+        <br>
+        <a href="https://github.com/danrigg11/InteractiveCV.git" target="_blank">
+        <button class="GithubButton">GitHub Link</button></a>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-12">
+        <p style="margin: 05;">Account/ Password Generator</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <img style="border: 5px solid black;" src="{% static 'ProjectsWithPythoncvCover.png' %}" class="img-fluid" alt="Python cover">
+    </div>
+    <div class="col-md-6">
+        <p>This project was made to generate usernames and passwords with little thinking, created to show what I have learnt using python on the Udemy course 'The Python Bible'.</p>
+    </div>
+    <div class="col-md-12">
+        <br>
+        <a href="https://github.com/danrigg11/AccountGenerator.git" target="_blank">
+        <button class="GithubButton">GitHub Link</button></a>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-12">
+        <p style="margin: 05;">Account System</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <img style="border: 5px solid black;" src="{% static 'ProjectsWithPythoncvCover.png' %}" class="img-fluid" alt="Python cover">
+    </div>
+    <div class="col-md-6">
+        <p style="margin: 0px;">This project was made to create or delete accounts for users, created to show what I have learnt using python on the Udemy course 'The Python Bible'.</p>
+    </div>
+    <div class="col-md-12">
+        <br>
+        <a href="https://github.com/danrigg11/AccountSystem.git" target="_blank">
+        <button class="GithubButton">GitHub Link</button></a>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-12">
+        <p style="margin: 05;">Online Shop</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <img style="border: 5px solid black;" src="{% static 'ProjectsWithPythoncvCover.png' %}" class="img-fluid" alt="Python cover">
+    </div>
+    <div class="col-md-6">
+        <p style="margin: 0px;">This project was made to buy items with a currency, created to show what I have learnt using python on the Udemy course 'The Python Bible'.</p>
+    </div>
+    <div class="col-md-12">
+        <br>
+        <a href="https://github.com/danrigg11/OnlineVegShop.git" target="_blank">
+        <button class="GithubButton">GitHub Link</button></a>
+    </div>
+</div>
+<br>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>

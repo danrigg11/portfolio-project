@@ -18,3 +18,6 @@ def LostSandspage(request):
 
 def MakingCreaturespage(request):
     return render(request, 'MakingCreatures.html')
+
+def ProjectsWithPythonpage(request):
+    return render(request, 'ProjectsWithPython.html')
