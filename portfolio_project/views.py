@@ -12,3 +12,6 @@ def ARboxingpage(request):
 
 def ChildrensBookpage(request):
     return render(request, 'ChildrensBook.html')
+
+def LostSandspage(request):
+    return render(request, 'LostSands.html')

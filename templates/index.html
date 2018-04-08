@@ -3,14 +3,14 @@
     {% load staticfiles %}
     <meta charset="utf-8">
     <link rel="stylesheet" href="{% static 'css/Main.css' %}">
-      <link href="https://fonts.googleapis.com/css?family=Lato:700&amp;subset=latin-ext" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-      <script src="{% static 'js/Test.js' %}"></script>
+    <script src="{% static 'js/Test.js' %}"></script>
 
-      <title>Daniel Rigg Portfolio</title>
-      <meta name=”description” content=”My Portfolio of projects using different software and ongoing projects.”>
-      <meta name="keywords" content="Daniel Thomas Rigg, Daniel Rigg, Portfolio, Art, Artwork">
+    <title>Daniel Rigg Portfolio</title>
+    <meta name=”description” content=”My Portfolio of projects using different software and ongoing projects.”>
+    <meta name="keywords" content="Daniel Thomas Rigg, Daniel Rigg, Portfolio, Art, Artwork">
   </head>
 
 <body>
@@ -62,7 +62,7 @@
 <a href="MakingCreatures.html"><img id="ImageMakingCreatures" src="{% static 'PhotoshopCovers.MakingCreatures.png' %}" height="400px"></a>
 
 <br>
-<a href="LostSands.html"><img id="ImageLostSands" src="{% static 'PhotoshopCovers.LostSands.png' %}" height="400px"></a>
+<a href="{% url 'LostSands' %}"><img id="ImageLostSands" src="{% static 'PhotoshopCovers.LostSands.png' %}" height="400px"></a>
 
 <br>
 <a href="SculptingFaces.html"><img id="ImageSculptingFaces" src="{% static 'PhotoshopCovers.SculptingFaces.png' %}" height="400px"></a>
