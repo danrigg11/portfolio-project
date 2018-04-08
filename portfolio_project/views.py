@@ -3,3 +3,6 @@ from django.shortcuts import render
 
 def homepage(request):
     return render(request, 'index.html')
+
+def contactmepage(request):
+    return render(request, 'ContactMe.html')
