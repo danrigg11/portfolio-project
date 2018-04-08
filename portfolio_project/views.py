@@ -6,3 +6,6 @@ def homepage(request):
 
 def contactmepage(request):
     return render(request, 'ContactMe.html')
+
+def ARboxingpage(request):
+    return render(request, 'ARboxing.html')
