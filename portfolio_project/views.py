@@ -21,3 +21,6 @@ def MakingCreaturespage(request):
 
 def ProjectsWithPythonpage(request):
     return render(request, 'ProjectsWithPython.html')
+
+def SculptingFacespage(request):
+    return render(request, 'SculptingFaces.html')

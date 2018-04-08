@@ -1,0 +1,209 @@
+<html>
+  <head>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/Main.css' %}">
+    <script src="{% static 'js/Test.js' %}"></script>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+      <title>Sculpting Faces | Daniel Rigg Portfolio</title>
+  </head>
+
+<body>
+<div class="container">
+<div class="row justify-content-md-center">
+    <div class="col-12">
+        <h2>Daniel Rigg Portfolio</h2>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'ContactMe' %}">Contact Me</a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'allblogs' %}">Blog</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row justify-content-md-center">
+    <div class="col-md-6">
+        <img src="{% static 'SculptingFacesTextCover.png' %}" class="img-fluid" alt="Text Cover">
+    </div>
+    <div class="col-md-6">
+        <br>
+        <p>This project was to create a sculptures in mudbox of recognizable characters in films and other media, I then went on to design and create my own character. I used this project to improve my 3D sculpting skills.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3 style="color:#000202; margin-bottom: 0;">Creature From the Black Lagoon</h3>
+    </div>
+    <div class="col-md-12">
+        <img style="margin: 0px;" src="{% static 'SculptingFaces.CreatureFromTheBlackLagoonCover.jpg' %}" class="img-fluid" alt="Creature From The Back Lagoon Film Cover">
+    </div>
+    <div class="col-md-12">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Sculpted in Autodesk Mudbox</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="{% static 'SculptingFaces.Image7.jpg' %}" class="img-fluid" alt="Face Sculpting Image 1">
+    </div>
+    <div class="col-md-12">
+        <br>
+        <img src="{% static 'SculptingFaces.Image8.jpg' %}" class="img-fluid" alt="Face Sculpting Image 1">
+    </div>
+    <div class="col-12">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Textured also in Autodesk Maya</p>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.Image9.jpg' %}" class="img-fluid" alt="Face Sculpting Image 2">
+    </div>
+    <div class="col-12">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Finished Model</p>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.Image10.jpg' %}" class="img-fluid" alt="Face Sulpting Cover">
+    </div>
+</div>
+
+<div class="row justify-content-md-center">
+    <div class="col-12">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">3D view</p>
+    </div>
+    <div class="col-lg-12 col-sm-12">
+        <iframe src="https://sketchfab.com/models/9443d2c7482f41d7aedec207ac40469f/embed?autospin=0.2&amp;camera=0" width="100% \7" height="450" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+    </div>
+</div>
+
+<hr style="height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc)";>
+
+<div class="row justify-content-md-center">
+    <div class="col-12">
+        <br>
+        <h3 style="color:#000202; margin-bottom: 0;">'Azog' From the Hobbit</h3>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.AzogTheHobbit.jpg' %}" class="img-fluid" alt="Azog Cover">
+    </div>
+    <div class="col">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Sculpted in Autodesk Mudbox</p>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.Image1.png' %}" class="img-fluid"  alt="Face Sulpting Cover">
+    </div>
+    <div class="col-12">
+        <br>
+        <img src="{% static 'SculptingFaces.Image2.png' %}" class="img-fluid" alt="Face Sulpting Cover">
+    </div>
+    <div class="col-12">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Finished Model</p>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.Image3.jpg' %}" class="img-fluid" alt="Face Sulpting Cover">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">3D view</p>
+    </div>
+    <div class="col-lg-12 col-sm-12">
+        <iframe src="https://sketchfab.com/models/fbd88ae6c9f4488e90833c38a3febf81/embed?autospin=0.2&amp;camera=0" width="100% \7" height="450"  frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+    </div>
+</div>
+
+<hr style="height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);">
+
+<div class="row">
+    <div class="col-12">
+        <br>
+        <h3 style="color:#000202; margin-bottom: 0;">'the Sloth' from the Goonies</h3>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.SlothTheGoonies.jpg' %}" class="img-fluid" alt="Goonies Cover">
+    </div>
+    <div class="col-12">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Sculpted in Autodesk Mudbox</p>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.Image4.png' %}" class="img-fluid" alt="Face Sculpting Image 4">
+    </div>
+    <div class="col-12">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Textured also in Autodesk Maya</p>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.Image5.png' %}" class="img-fluid" alt="Face Sculpting Image 3">
+    </div>
+    <div class="col-12">
+        <br>
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Final Render</p>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.Image6.png' %}" class="img-fluid" alt="Face Sculpting Image 3">
+    </div>
+</div>
+
+<hr style="height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);">
+
+<div class="row">
+    <div class="col-12">
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">My own character design</p>
+    </div>
+    <div class="col-12">
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Sculpted in Autodesk Mudbox, Glasses done in Maya</p>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.Image13.png' %}" class="img-fluid" alt="Skill Mask 1">
+    </div>
+    <div class="col-12">
+        <br>
+        <img src="{% static 'SculptingFaces.Image12.png' %}" class="img-fluid" alt="Skull Mask 2">
+    </div>
+    <div class="col-12">
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">Final Render</p>
+    </div>
+    <div class="col-12">
+        <img src="{% static 'SculptingFaces.Image14.png' %}" class="img-fluid" alt="Skull Mask 3">
+    </div>
+    <div class="col-12">
+        <p style="margin-bottom: 0; color:#000202; font-size: 18">3D view</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-sm-12">
+        <iframe src="https://sketchfab.com/models/77ce9262a0924f418145612afcaa8fe1/embed?autospin=0.2&amp;camera=0" width="100% \7" height="450"  frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+    </div>
+</div>
+<br>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>

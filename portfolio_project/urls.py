@@ -28,5 +28,6 @@ urlpatterns = [
     path('LostSands', views.LostSandspage, name='LostSands'),
     path('MakingCreatures', views.MakingCreaturespage, name='MakingCreatures'),
     path('ProjectsWithPython', views.ProjectsWithPythonpage, name='ProjectsWithPython'),
+    path('SculptingFaces', views.SculptingFacespage, name='SculptingFaces'),
     path('blog/', include('blog.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

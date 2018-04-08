@@ -55,7 +55,7 @@
 <div id="ContainerOverflow">
 <div id="image">
 <a href="{% url 'ChildrensBook' %}"><img id="ImageRecentWorkBook" src="{% static 'PhotoshopCovers.htmlBook.png' %}" height="400px"></a>
-<a href="SculptingFaces.html"><img id="ImageRecentSculptingFaces" src="{% static 'PhotoshopCovers.SculptingFaces.png' %}" height="400px"></a>
+<a href="{% url 'SculptingFaces' %}"><img id="ImageRecentSculptingFaces" src="{% static 'PhotoshopCovers.SculptingFaces.png' %}" height="400px"></a>
 <a href="{% url 'ProjectsWithPython' %}"><img id="ImageRecentProjectsWithPython" src="{% static 'PhotoshopCovers.Python.png' %}" height="400px"></a>
 
 <br>
@@ -65,7 +65,7 @@
 <a href="{% url 'LostSands' %}"><img id="ImageLostSands" src="{% static 'PhotoshopCovers.LostSands.png' %}" height="400px"></a>
 
 <br>
-<a href="SculptingFaces.html"><img id="ImageSculptingFaces" src="{% static 'PhotoshopCovers.SculptingFaces.png' %}" height="400px"></a>
+<a href="{% url 'SculptingFaces' %}"><img id="ImageSculptingFaces" src="{% static 'PhotoshopCovers.SculptingFaces.png' %}" height="400px"></a>
 
 <br>
 <a href="{% url 'ChildrensBook' %}"><img id="ImageChildrensBook" src="{% static 'PhotoshopCovers.htmlBook.png' %}" height="400px"></a>
@@ -87,8 +87,8 @@
     <a href="{% url 'ARboxing' %}"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.ARboxing.png' %}" class="img-fluid"></a>
     <a href="{% url 'LostSands' %}"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.LostSands.png' %}" class="img-fluid"></a>
     <a href="{% url 'MakingCreatures' %}"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.MakingCreatures.png' %}" class="img-fluid"></a>
-    <a href="#"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.Python.png' %}" class="img-fluid"></a>
-    <a href="#"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.SculptingFaces.png' %}" class="img-fluid"></a>
+    <a href="{% url 'ProjectsWithPython' %}"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.Python.png' %}" class="img-fluid"></a>
+    <a href="{% url 'SculptingFaces' %}"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.SculptingFaces.png' %}" class="img-fluid"></a>
 
 </div>
 
