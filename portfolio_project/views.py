@@ -15,3 +15,6 @@ def ChildrensBookpage(request):
 
 def LostSandspage(request):
     return render(request, 'LostSands.html')
+
+def MakingCreaturespage(request):
+    return render(request, 'MakingCreatures.html')

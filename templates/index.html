@@ -59,7 +59,7 @@
 <a href="ProjectsWithPython.html"><img id="ImageRecentProjectsWithPython" src="{% static 'PhotoshopCovers.Python.png' %}" height="400px"></a>
 
 <br>
-<a href="MakingCreatures.html"><img id="ImageMakingCreatures" src="{% static 'PhotoshopCovers.MakingCreatures.png' %}" height="400px"></a>
+<a href="{% url 'MakingCreatures' %}"><img id="ImageMakingCreatures" src="{% static 'PhotoshopCovers.MakingCreatures.png' %}" height="400px"></a>
 
 <br>
 <a href="{% url 'LostSands' %}"><img id="ImageLostSands" src="{% static 'PhotoshopCovers.LostSands.png' %}" height="400px"></a>
@@ -83,10 +83,10 @@
 
 <div class="LargeScreenAction">
 
-    <a href="#"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.htmlBook.png' %}" class="img-fluid"></a>
-    <a href="#"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.ARboxing.png' %}" class="img-fluid"></a>
-    <a href="#"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.LostSands.png' %}" class="img-fluid"></a>
-    <a href="#"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.MakingCreatures.png' %}" class="img-fluid"></a>
+    <a href="{% url 'ChildrensBook' %}"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.htmlBook.png' %}" class="img-fluid"></a>
+    <a href="{% url 'ARboxing' %}"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.ARboxing.png' %}" class="img-fluid"></a>
+    <a href="{% url 'LostSands' %}"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.LostSands.png' %}" class="img-fluid"></a>
+    <a href="{% url 'MakingCreatures' %}"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.MakingCreatures.png' %}" class="img-fluid"></a>
     <a href="#"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.Python.png' %}" class="img-fluid"></a>
     <a href="#"><img style="margin-bottom: 10px" src="{% static 'PhotoshopCovers.SculptingFaces.png' %}" class="img-fluid"></a>
 
