@@ -149,14 +149,14 @@ border: 2px solid black;
     left: 50px;
 }
 
-@media (max-width: 830.98px)
+@media (max-width: 991px)
 {
     .smallScreenAction{
         display: none;
     }
 }
 
-@media (min-width: 866px)
+@media (min-width: 990.99px)
 {
     .LargeScreenAction{
         display: none;
